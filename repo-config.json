@@ -1,12 +1,14 @@
 {
   "scanSettings": {
     "configMode": "AUTO",
+    "enableIaC": true,
     "configExternalURL": "",
     "baseBranches": []
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
     "displayMode": "diff",
+    "iacCheckRunConclusionLevel": "failure",
     "useMendCheckNames": true
   },
   "issueSettings": {
