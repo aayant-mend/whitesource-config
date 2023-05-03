@@ -17,5 +17,14 @@
     "workflowRules": {
       "enabled": true
     }
+  },
+  "scanSettingsSAST": {
+    "enableScan": true,
+    "scanPullRequests": true,
+    "incrementalScan": false
+  },
+  "checkRunSettingsSAST": {
+    "checkRunConclusionLevel": "failure",
+    "severityThreshold": "high"
   }
 }
